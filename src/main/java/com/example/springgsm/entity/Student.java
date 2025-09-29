@@ -3,7 +3,7 @@ package com.example.springgsm.entity;
 public class Student {
     private String name;
     private String school;
-    private String email;
+    private String phone;
     // setter, getter
     public String getName() {
         return name;
@@ -21,11 +21,11 @@ public class Student {
         this.school = school;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

@@ -20,13 +20,13 @@
                view+="<tr>";
                view+="<td>이름</td>";
                view+="<td>학교</td>";
-               view+="<td>이메일</td>";
+               view+="<td>전화</td>";
                view+="</tr>";
               data.forEach(student=>{
                    view+="<tr>";
                    view+="<td>"+student.name+"</td>";
                    view+="<td>"+student.school+"</td>";
-                   view+="<td>"+student.email+"</td>";
+                   view+="<td>"+student.phone+"</td>";
                    view+="</tr>";
               });
                view+="</table>";
@@ -39,8 +39,8 @@
     </script>
 </head>
 <body>
-  학생목록보기 :
-  QUESTION: <input type="text" id="question"/>
+  <h2>학생 ERP System(학번:이름)</h2>
+   QUESTION: <input type="text" id="question"/>
   <button onclick="goList()">학생목록보기</button>
   <hr/>
   <div id="list">여기에 학생목록 리스트가 출력</div>
